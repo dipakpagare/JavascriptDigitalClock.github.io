@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock</title>
+    <link rel="shortcut icon" href="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fpngimg.com%2Fuploads%2Fclock%2Fclock_PNG6613.png&f=1&nofb=1" type="image/x-icon">
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body onload="playAudio()">
+    <main class="main">
+        <h1><span style="color: yellow;">JavaScript</span> Digital Clock</h1>
+        <div class="clock_body">
+
+            <section class="hour" id="hourid"></section>
+
+            <section class="minute" id="minuteid">
+            </section>
+
+            <section class="second" id="secondid"></section>
+            <span class="accent"></span>
+            
+        </div>
+        <div class="volume_btn_class">
+            <img id="volume_on" src="/images/outline_volume_up_black_24dp.png" alt="volume button">
+            <img id="volume_off" src="/images/outline_volume_off_black_24dp.png" alt="volume off button">
+        </div>
+        <audio id="audioid" autoplay src="/clock ticking.mp3" type='audio/mp3' loop ></audio>
+       
+    </main>
+
+    <script>
+         let playAudio=()=>{
+      document.querySelector('audio').play();
+    }
+    </script>
+    <script src="/main.js"></script>
+</body>
+
+</html>
