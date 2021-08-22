@@ -4,6 +4,7 @@
 https://dipakpagare.github.io/JavascriptDigitalClock/
 ---
 #### Expected Future updates:
+{: .gitlab-red}
 + Will be including current date.
 
-<style>H1{color:Blue;}Have a nice day!</style>
+
